@@ -13,7 +13,7 @@ FindNthRoot function
 
 using namespace std;
 
-string FindNthRoot(int number, int n, int precision) {
+string FindNthRoot(std::int number, int n, int precision) {
   int temp;
   
   for (int j = 2; j <= number; j++)  {
@@ -22,11 +22,13 @@ string FindNthRoot(int number, int n, int precision) {
       temp *= j;
       if (temp == number)  {
         setprecision(precision) << i;
+        itoa(i);
         return i;
       }
     }
   }
   setprecision(precision) << temp;
+  itoa(temp);
 
   return temp;
 }

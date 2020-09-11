@@ -1,6 +1,7 @@
 #ifndef ROOT_H
 #define ROOT_H
+#include <iostream>
 
-string FindNthRoot(int number, int n, int precision);
+string FindNthRoot(std::int number, int n, int precision);
 
 #endif
