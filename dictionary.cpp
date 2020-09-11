@@ -104,14 +104,14 @@ int AverageWordLength(std::string words[], int length) {
   return avg;
 }
 
-int MostCommonWordLength(std::string heroes[], int length){
+int MostCommonWordLength(std::string words[], int length){
   int count = 0;
   int length_counter = 0;
   int common = 0;
 
   for (int y = 0; y < length; y++)  {
     length_counter = sizeof(words[y]);
-    for (x = 0; x < length; x++)  {
+    for (int x = 0; x < length; x++)  {
       if (sizeof(words[y]) == sizeof(words[x]))  {
         count++;
         if (count > 1)  {
