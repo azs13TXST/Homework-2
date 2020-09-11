@@ -14,9 +14,9 @@ int main() {
   std::cout << "Binar Search: " << BinarySearch(numbers,length,n) <<  std::endl;*/
   string words[] = {"Ana", "Baptiste", "Brigitte", "Lucio", "Mercy", "Moira", "Zenyatta"};
 
-  int length = sizeof(heroes);
+  int length = sizeof(words);
 
   for (int i = 0; i < length; i++)  {
-    cout << heroes[i] << " " << endl;
+    cout << words[i] << " " << endl;
   }
 }

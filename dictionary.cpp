@@ -43,7 +43,7 @@ MostCommonWordLength function
 
 using namespace std;
 
-int MinWordLength(string words[], int length) {
+int MinWordLength(std::string words[], int length) {
   int count = 0;
   int min_counter = count;
 
@@ -56,7 +56,7 @@ int MinWordLength(string words[], int length) {
   return min_counter;
 }
 
-int MaxWordLength(string words[], int length) {
+int MaxWordLength(std::string words[], int length) {
   int count;
   int max_counter = count;
 
@@ -69,7 +69,7 @@ int MaxWordLength(string words[], int length) {
   return max_counter;
 }
 
-int WordLengthRange(string words[], int length) {
+int WordLengthRange(std::string words[], int length) {
   int count = 0;
   int min_counter = 0;
   int max_counter = 0;
@@ -90,7 +90,7 @@ int WordLengthRange(string words[], int length) {
   return range;
 }
 
-int AverageWordLength(string words[], int length) {
+int AverageWordLength(std::string words[], int length) {
   int array_length = length;
   int count = 0;
   int sum = count;
@@ -104,7 +104,7 @@ int AverageWordLength(string words[], int length) {
   return avg;
 }
 
-int MostCommonWordLength(string heroes[], int length){
+int MostCommonWordLength(std::string heroes[], int length){
   int count = 0;
   int length_counter = 0;
   int common = 0;

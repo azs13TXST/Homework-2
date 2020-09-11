@@ -1,6 +1,7 @@
-/****
-* PSEUDOCODE:
-*
+/*
+PSEUDOCODE:
+
+
 */
 #include <iostream>
 #include <string>
